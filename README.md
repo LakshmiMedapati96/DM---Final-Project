@@ -6,13 +6,13 @@ Steps for Execution in Google Colab :
 
 1. Upload the notebook using File -> Upload notebook
 2. Follow the below steps to download the kaggle dataset for execution :
--- Download API Credentials from Kaggle Profile (Account -> Create New API token). A "kaggle.json" file will be downloaded.
--- Upload "kaggle.json" file to Google Colab.
--- Run the following commands in Google Colab :
-   -- ! pip install kaggle
-   -- ! mkdir ~/.kaggle
-   -- ! cp kaggle.json ~/.kaggle/
-   -- ! chmod 600 ~/.kaggle/kaggle.json
+- Download API Credentials from Kaggle Profile (Account -> Create New API token). A "kaggle.json" file will be downloaded.
+- Upload "kaggle.json" file to Google Colab.
+- Run the following commands in Google Colab :
+   - ! pip install kaggle
+   - ! mkdir ~/.kaggle
+   - ! cp kaggle.json ~/.kaggle/
+   - ! chmod 600 ~/.kaggle/kaggle.json
 3. Run the command "! kaggle datasets download tushar5harma/topredditcomments" to download the dataset
 4. Run the command "! unzip topredditcomments.zip" to unzip the file.
 5. Run all the code cells
